@@ -1,9 +1,14 @@
 <p>main works!</p>
-<button type="button" class="btn">Basic</button>
-<button type="button" class="btn btn-default">Default</button>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-link">Link</button>
+<div class="row">
+  <div class="col-md-1 col-xs-12 col-sm-12 col-lg-1">
+    <button type="button" class="btn btn-success" (click)="Increase()">Start</button>
+  </div>
+  <div class="col-md-1 col-xs-12 col-sm-12 col-lg-1 ">
+    <button type="button" class="btn btn-success">Stop</button>
+  </div>
+  <div>
+    <H1>{{Clock}}</H1>
+  </div>
+</div>
+
+
