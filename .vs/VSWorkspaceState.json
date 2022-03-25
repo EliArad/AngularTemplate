@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules",
+    "\\node_modules\\bootstrap",
+    "\\node_modules\\bootstrap\\dist",
+    "\\node_modules\\bootstrap\\dist\\css",
+    "\\src"
+  ],
+  "SelectedNode": "\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+  "PreviewInSolutionExplorer": false
+}
