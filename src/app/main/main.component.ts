@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { AridService } from '../services/arid.service';
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -9,10 +11,13 @@ export class MainComponent implements OnInit {
 
   Clock: string = "00:00:00";
   private counter: number = 0;
-  constructor() { }
+  constructor(private aridService:AridService) { }
 
   ngOnInit(): void
   {
+
+    let emp = this.aridService.GetEmployess();
+    console.log(emp);
 
   }
 

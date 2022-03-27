@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
+import { AridService } from './services/arid.service';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { MainComponent } from './main/main.component';
   imports: [
     BrowserModule, FormsModule
   ],
-  providers: [],
+  providers: [AridService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
